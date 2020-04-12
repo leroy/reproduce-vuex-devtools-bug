@@ -4,18 +4,22 @@
 		<CommitVNode>
 			<HelloWorld msg="Welcome to Your Vue.js App"/>
 		</CommitVNode>
+
+		<CommitVNodeWithoutSlot></CommitVNodeWithoutSlot>
 	</div>
 </template>
 
 <script>
 	import HelloWorld from './components/HelloWorld.vue'
 	import CommitVNode from "./components/CommitVNode";
+	import CommitVNodeWithoutSlot from "./components/CommitVNodeWithoutSlot";
 
 	export default {
 		name: 'App',
 		components: {
 			HelloWorld,
-			CommitVNode
+			CommitVNode,
+			CommitVNodeWithoutSlot
 		}
 	}
 </script>
